@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
+    <Page Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Flèches\StackDown_16x.png" />
+    <None Remove="Images\Flèches\StackLeft_16x.png" />
+    <None Remove="Images\Flèches\StackRight_16x.png" />
+    <None Remove="Images\Flèches\StackUp_16x.png" />
+    <None Remove="Images\StackDown_16x.png" />
+    <None Remove="Images\StackLeft_16x.png" />
+    <None Remove="Images\StackRight_16x.png" />
+    <None Remove="Images\StackUp_16x.png" />
+    <None Remove="Images\Steve Jobs\SteveJobs240_240.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_1.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_10.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_11.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_12.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_13.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_14.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_15.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_16.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_17.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_18.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_19.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_2.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_20.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_3.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_4.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_5.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_6.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_7.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_8.jpg" />
+    <None Remove="Images\Steve Jobs\SteveJobs60_48_9.jpg" />
+    <None Remove="Sons\Success.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sons\Success.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JeuxLib\JeuxLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Flèches\StackDown_16x.png" />
+    <Resource Include="Images\Flèches\StackLeft_16x.png" />
+    <Resource Include="Images\Flèches\StackRight_16x.png" />
+    <Resource Include="Images\Flèches\StackUp_16x.png" />
+    <Resource Include="Images\Steve Jobs\SteveJobs240_240.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_1.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_10.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_11.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_12.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_13.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_14.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_15.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_16.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_17.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_18.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_19.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_2.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_20.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_3.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_4.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_5.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_6.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_7.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_8.jpg" />
+    <Resource Include="Images\Steve Jobs\SteveJobs60_48_9.jpg" />
+  </ItemGroup>
+
+</Project>
